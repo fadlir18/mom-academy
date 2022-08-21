@@ -1,0 +1,60 @@
+APP_NAME=Laravel
+APP_ENV=local
+APP_KEY=base64:Qd7YOCnObZgeUXzPMVoeNRgkXB3xcpvNN5XmfKieglE=
+APP_DEBUG=true
+APP_URL=http://devmom.zonderstudio.com
+
+LOG_CHANNEL=stack
+
+DB_CONNECTION=mysql
+DB_HOST=103.147.154.146
+DB_PORT=3306
+DB_DATABASE=zonders1_momaapps
+DB_USERNAME=zonders1_moma
+DB_PASSWORD=zonders1_moma
+
+BROADCAST_DRIVER=log
+CACHE_DRIVER=file
+QUEUE_CONNECTION=sync
+SESSION_DRIVER=file
+SESSION_LIFETIME=120
+
+REDIS_HOST=127.0.0.1
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=null
+MAIL_FROM_NAME="${APP_NAME}"
+
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_DEFAULT_REGION=us-east-1
+AWS_BUCKET=
+
+PUSHER_APP_ID=
+PUSHER_APP_KEY=
+PUSHER_APP_SECRET=
+PUSHER_APP_CLUSTER=mt1
+
+MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
+MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+
+# G_CLIENT_ID = 524961045458-no3ptktlk2nmm8s0hddbqu42gv6l1ffd.apps.googleusercontent.com
+# G_CLIENT_SECRET = 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
+# G_CLIENT_REDIRECT = https://devmom.zonderstudio.com/auth/google/callback
+
+G_CLIENT_ID = 528149999216-hieaimosg8v8erv1ej0s4814e627ksm3.apps.googleusercontent.com
+G_CLIENT_SECRET = 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
+G_CLIENT_REDIRECT = https://devmom.zonderstudio.com/auth/google/callback
+
+FB_ID = 
+FB_SECRET = 
+FB_URL = http://localhost:8000/auth/facebook/callback
+
+MIDTRANS_SERVER_KEY=SB-Mid-server-xg9EBZDOoYY5_isafogGdiju

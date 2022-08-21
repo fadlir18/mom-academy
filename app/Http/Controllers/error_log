@@ -1,0 +1,8 @@
+[01-Jul-2022 21:41:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/zonders1/devmom.zonderstudio.com/app/Http/Controllers/ClassController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zonders1/devmom.zonderstudio.com/app/Http/Controllers/ClassController.php on line 11
+[01-Jul-2022 21:41:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/zonders1/devmom.zonderstudio.com/app/Http/Controllers/MarketController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/zonders1/devmom.zonderstudio.com/app/Http/Controllers/MarketController.php on line 11

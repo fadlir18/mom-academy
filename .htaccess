@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^devmom.zonderstudio.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.devmom.zonderstudio.com$
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) /public/$1 [L]
+
+#####multiphp#####
+<FilesMatch "\.(php4|php5|php3|php2|php|phtml)$">
+ SetHandler application/x-httpd-alt-php81___lsphp
+</FilesMatch>
+#################
